@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: #ffffff;
+}
+.topmenu{
+    background: green;
+    height: 40px;
+    padding: 5px;
+    position: relative;
+}
+
+.navi {
+    float: right;
+    color:white;
+}
+a{
+    color:#fff;
+}
+li {
+    display: inline;
+    margin-right: 20px;
+}
+    
+/* the landing page css */
+.landing {
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 710px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);   
+    height: 100%;
+}
+
+#push {
+    padding-top: 10%;
+}
+
+.landing-text {
+    margin-top: 10%;
+}
+.landing-text h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 60px;
+}
+.pizz{
+    color: orange;
+    animation: backwards;
+}
