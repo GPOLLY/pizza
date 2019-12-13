@@ -58,11 +58,26 @@ li {
 }
 .pizz{
     color: orange;
-    animation: backwards;
+    /* animation: backwards; */
+    animation: backwards 1s;
 }
 
 /* order page */
 .order_img{
  background-image: url('../images/pizza3.jpeg');
+ background-size: cover;
+ background-position: center center;
+ background-repeat: no-repeat;
  height: 740px;
 }
+.col-sm-6 offset-sm-3 text-center{
+    padding: 20px;
+}
+
+#checkout{
+    margin-top: 15px;
+}
+
+
+
+

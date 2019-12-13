@@ -17,7 +17,7 @@
     <div class="topmenu">
         <div class="navi">
             <ul class="nav-items">
-                <li><a href="#menus">Menu</a></li>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#order">Orders</a></li>
                 <li><a href="#contact">Contacts</a></li>
             </ul>
@@ -25,7 +25,7 @@
     </div>
 
     <!-- landing page -->
-    <div class="landing">
+    <div class="landing" id="home">
         <div class="overlay">
             <div id="push"></div>
             <div class="landing-text">
@@ -43,12 +43,14 @@
     <!-- order page -->
     <div class="orders" id="order">
         <div class="order_img">
+            <div class="overlay">
             <div class="form-group row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8 order-overlay text-center">
                     <form class="col-sm-6 offset-sm-3 text-center">
                         <label>Pick your pizza Flavour:</label>
                         <select class="custom-select custom-select-md mb-3 flavour" required>
+                            <option value="">------</option>
                             <option value="vegtikka">Veg Tikka</option>
                             <option value="chickentikka">Chicken Tikka</option>
                             <option value="periperi">Peri-Peri Chicken</option>
@@ -60,12 +62,14 @@
                         </select>
                         <label>Chose your preferred Size:</label>
                         <select class="custom-select custom-select-md mb-3" id="size" required>
+                            <option value="">------</option>
                             <option value="regular">Regular</option>
                             <option value="medium">Medium</option>
                             <option value="large">Large</option>
                         </select>
                         <label for="crust">Choose your favorite Crust:</label>
                         <select class="custom-select custom-select-md mb-3" id="crust" required>
+                            <option value="">------</option>
                             <option value="thin">Thin Crust @ Ksh. 100</option>
                             <option value="thick">Thick Crust @ Ksh. 150</option>
                             <option value="flatbread">FlatBread Crust @ sh. 180</option>
@@ -73,6 +77,7 @@
                         </select>
                         <label>Select Your favourite Toppings</label>
                         <select class="custom-select custom-select-md mb-3" id="toppings" required>
+                            <option value="">------</option>
                             <option value="tomato">Tomato @ sh. 80</option>
                             <option value="onions">Onions @ sh. 80</option>
                             <option value="mushroom">Mushroom @ sh. 80</option>
@@ -95,6 +100,7 @@
                     </form>
                     <a href="#summary">
                         <button type="submit" class="btn btn-success checkout" id="checkout">
+                            
                             Checkout
                         </button>
                     </a>
@@ -102,7 +108,7 @@
                 </div>
                 <div class="col-sm-2"></div>
             </div>
-
+        </div>
         </div>
         
     </div>
