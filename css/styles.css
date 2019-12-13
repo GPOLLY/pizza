@@ -63,6 +63,9 @@ li {
 }
 
 /* order page */
+.orders form{
+    padding-top: 100px;
+}
 .order_img{
  background-image: url('../images/pizza3.jpeg');
  background-size: cover;
