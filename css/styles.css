@@ -15,7 +15,8 @@ body {
     background: green;
     height: 40px;
     padding: 5px;
-    position: relative;
+    position:fixed;
+    width: 100%;
 }
 
 .navi {
@@ -36,7 +37,7 @@ li {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 710px;
+    height: 740px;
 }
 
 .overlay {
@@ -58,4 +59,10 @@ li {
 .pizz{
     color: orange;
     animation: backwards;
+}
+
+/* order page */
+.order_img{
+ background-image: url('../images/pizza3.jpeg');
+ height: 740px;
 }
