@@ -40,7 +40,7 @@ li {
     height: 740px;
 }
 
-.overlay {
+.colourshed {
     background-color: rgba(0, 0, 0, 0.7);   
     height: 100%;
 }
@@ -58,7 +58,6 @@ li {
 }
 .pizz{
     color: orange;
-    /* animation: backwards; */
     animation: backwards 1s;
 }
 
