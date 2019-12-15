@@ -1,6 +1,7 @@
 $(function () {
+    debugger;   
     $('.results').hide();
-    $('.cdata-overlay').hide();
+    $(".cdata-overlay").hide();
 
 
     // Fetch the Data inputed
@@ -19,7 +20,7 @@ $(function () {
 
         // set the price on various type of pizza 
         let price, totalcost;
-        let price, totalPrice;
+       
         switch (flavour) {
 
             case flavour = "periperi":
