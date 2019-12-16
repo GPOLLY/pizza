@@ -204,17 +204,15 @@ $(function () {
 
         //Execute order function
         let newOrder = order(flavour, size, crust, topping, number, totalPrice);
-        
-
-        
-        // //Write to the order
+               
+         //Write to the order
         $('.summary').slideDown(2000);
         $('.cdata-overlay').slideUp();
         $('#list').slideDown();
         $('.deliver').show(1000);
         $('.delivernot').show(1000);
 
-        
+        //display on the html page
         $('#list').text(" ");     
         $("#list").append("<br>" + "Flavour :   " + newOrder.f + "<br>" + "Size :   "
             + newOrder.s + "<br>" + "Crust :     "
@@ -223,8 +221,9 @@ $(function () {
             + newOrder.n + "<br>" + "Total Price :  "
             + newOrder.total + "<br><br>").css('font-family', 'system-ui').css('font-size', '24px');
     });
+    // alert(list);
 
-    //Deliver
+    //Deliver part
     $(".deliver").click(function () {
         $('.summary').slideUp();
         $('#list').slideUp();
