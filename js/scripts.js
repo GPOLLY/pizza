@@ -19,7 +19,7 @@ $(function () {
             return { f, s, c, t, n, total };
         };
 
-        // set the price on various type of pizza 
+        // set the price on various typ e of pizza 
         let price, totalPrice;
        
         switch (flavour) {
@@ -213,13 +213,11 @@ $(function () {
         $('.delivernot').show(1000);
 
         //display on the html page
-        $('#list').text(" ");     
-        $("#list").append("<br>" + "Flavour :   " + newOrder.f + "<br>" + "Size :   "
-            + newOrder.s + "<br>" + "Crust :     "
-            + newOrder.c + "<br>" + "Toppings :     "
-            + newOrder.t + "<br>" + " Number of pizzas :    "
-            + newOrder.n + "<br>" + "Total Price :  "
-            + newOrder.total + "<br><br>").css('font-family', 'system-ui').css('font-size', '24px');
+        $('#list').text(" ");  
+        var output = totalPrice;  
+        document.getElementById("output").innerHTML=output;
+
+        
     });
     // alert(list);
 
