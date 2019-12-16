@@ -2,10 +2,11 @@ $(function () {
     debugger;   
     $('.results').hide();
     $(".cdata-overlay").hide();
+    $(".summary").hide();
 
 
     // Fetch the Data inputed
-    $("#save").click(function () {
+    $("#checkout").click(function () {
         debugger;
         let flavour = $(".flavour option:selected").val();
         let size = $("#size option:selected").val();

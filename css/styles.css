@@ -56,10 +56,10 @@ li {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 60px;
 }
-.pizz{
+/* .pizz{
     color: orange;
     animation: backwards 1s;
-}
+} */
 
 /* order page */
 .orders form{
@@ -76,7 +76,7 @@ li {
     padding: 20px;
 }
 
-#save{
+#checkout{
     margin-top: 15px;
 }
 .click-me, button[type=submit], .deliver, .delivernot {
@@ -85,7 +85,7 @@ li {
     text-transform: uppercase;
     display: inline-block;
     letter-spacing: 2px;
-    background-color: #ffbf00;
+    background-color: darkgoldenrod;
     outline: none;
     padding: 12.5px 13px;
     border: none;
@@ -95,6 +95,11 @@ li {
 
 .deliver, .delivernot {
     margin: 10px;
+}
+.order-summary h1, .summary, .contact {
+    color: #000;
+    font-family: 'Love Ya Like A Sister', cursive;
+    margin-top: 30px;
 }
 
 @media (max-width: 740px) {
