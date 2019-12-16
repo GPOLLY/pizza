@@ -20,7 +20,7 @@ $(function () {
         };
 
         // set the price on various type of pizza 
-        let price, totalcost;
+        let price, totalPrice;
        
         switch (flavour) {
 
@@ -189,13 +189,13 @@ $(function () {
 
         switch (toppings) {
             case topping = "tomato":
-                totalPrice = totalPrice + 80;
+                totalPrice = totalPrice + 63;
                 break;
             case topping = "onions":
-                totalPrice = totalPrice + 80;
+                totalPrice = totalPrice + 50;
                 break;
             case topping = "mushroom":
-                totalPrice = totalPrice + 80;
+                totalPrice = totalPrice + 150;
                 break;
             case topping = "pineapple":
                 totalPrice = totalPrice + 120;
@@ -214,9 +214,8 @@ $(function () {
         $('.deliver').show(1000);
         $('.delivernot').show(1000);
 
-        $('#list').text(" ");
-        // $("#list").append(flavour);//(" " + "Flavour :   " + newOrder.f );
-
+        
+        $('#list').text(" ");     
         $("#list").append("<br>" + "Flavour :   " + newOrder.f + "<br>" + "Size :   "
             + newOrder.s + "<br>" + "Crust :     "
             + newOrder.c + "<br>" + "Toppings :     "
@@ -238,6 +237,14 @@ $(function () {
 
     //Pick Up
     $(".delivernot").click(function () {
+        $('#list').text(" ");     
+        $("#list").append("<br>" + "Flavour :   " + newOrder.f + "<br>" + "Size :   "
+            + newOrder.s + "<br>" + "Crust :     "
+            + newOrder.c + "<br>" + "Toppings :     "
+            + newOrder.t + "<br>" + " Number of pizzas :    "
+            + newOrder.n + "<br>" + "Total Price :  "
+            + newOrder.total + "<br><br>").css('font-family', 'system-ui').css('font-size', '24px');
+   
 
     });
 
