@@ -1,5 +1,5 @@
 $(function () {
-    debugger;   
+       
     $('.results').hide();
     $(".cdata-overlay").hide();
     $(".summary").hide();
@@ -27,7 +27,7 @@ $(function () {
             case flavour = "periperi":
                 switch (size) {
                     case size = "regular":
-                        price = 300;
+                        price = 400;
                         if (crust === "thin") {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "thick") {
@@ -39,7 +39,7 @@ $(function () {
                         }
                         break;
                     case size = "medium":
-                        price = 600;
+                        price = 650;
                         if (crust === "thin") {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "thick") {
@@ -51,7 +51,7 @@ $(function () {
                         }
                         break;
                     case size = "large":
-                        price = 1200;
+                        price = 1100;
                         if (crust === "thin") {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "thick") {
@@ -67,7 +67,7 @@ $(function () {
             case flavour = "bbq":
                 switch (size) {
                     case size = "regular":
-                        price = 300;
+                        price = 400;
                         if (crust === "thin") {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "thick") {
@@ -79,7 +79,7 @@ $(function () {
                         }
                         break;
                     case size = "medium":
-                        price = 600;
+                        price = 650;
                         if (crust === "thin") {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "thick") {
@@ -91,7 +91,7 @@ $(function () {
                         }
                         break;
                     case size = "large":
-                        price = 1200;
+                        price = 1100;
                         if (crust === "thin") {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "thick") {
