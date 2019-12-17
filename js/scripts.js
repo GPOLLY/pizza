@@ -107,7 +107,7 @@ $(function () {
             case flavour = "boerewors":
                 switch (size) {
                     case size = "regular":
-                        price = 300;
+                        price = 400;
                         if (crust === "thin") {
                             totalPrice = (price * number) ;
                         } else if (crust === "thick") {
@@ -119,7 +119,7 @@ $(function () {
                         }
                         break;
                     case size = "medium":
-                        price = 600;
+                        price = 650;
                         if (crust === "thin") {
                             totalPrice = (price * number) ;
                         } else if (crust === "thick") {
@@ -131,7 +131,7 @@ $(function () {
                         }
                         break;
                     case size = "large":
-                        price = 1200;
+                        price = 1100;
                         if (crust === "thin") {
                             totalPrice = (price * number) ;
                         } else if (crust === "thick") {
@@ -147,7 +147,7 @@ $(function () {
             case flavour = "hawaiian":
                 switch (size) {
                     case size = "regular":
-                        price = 300;
+                        price = 400;
                         if (crust === "thin") {
                             totalPrice = (price * number) ;
                         } else if (crust === "thick") {
@@ -159,7 +159,7 @@ $(function () {
                         }
                         break;
                     case size = "medium":
-                        price = 600;
+                        price = 650;
                         if (crust === "thin") {
                             totalPrice = (price * number) ;
                         } else if (crust === "thick") {
@@ -171,7 +171,7 @@ $(function () {
                         }
                         break;
                     case size = "large":
-                        price = 1200;
+                        price = 1100;
                         if (crust === "thin") {
                             totalPrice = (price * number) ;
                         } else if (crust === "thick") {
