@@ -29,38 +29,33 @@ $(function () {
                     case size = "regular":
                         price = 400;
                         if (crust === "thin") {
-                            totalPrice = (price * number) ;
+                            totalPrice = (price * number) + 100 ;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number);
-                        } else if (crust === "flatbread") {
-                            totalPrice = (price * number);
-                        } else {
-                            totalPrice = (price * number);
-                        }
+                            totalPrice = (price * number)+ 170;
+                        } else  {
+                            totalPrice = (price * number) +230;
+                        } 
                         break;
                     case size = "medium":
                         price = 650;
                         if (crust === "thin") {
-                            totalPrice = (price * number) ;
+                            totalPrice = (price * number) +100 ;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) ;
-                        } else if (crust === "flatbread") {
-                            totalPrice = (price * number) ;
-                        } else {
-                            totalPrice = (price * number) ;
-                        }
+                            totalPrice = (price * number) + 170;
+                        } else  {
+                            totalPrice = (price * number) + 230 ;
+                        } 
                         break;
                     case size = "large":
                         price = 1100;
                         if (crust === "thin") {
-                            totalPrice = (price * number) ;
+                            totalPrice = (price * number) +100 ;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) ;
-                        } else if (crust === "flatbread") {
-                            totalPrice = (price * number) ;
-                        } else {
-                            totalPrice = (price * number);
-                        }
+                            totalPrice = (price * number) +170;
+                        } else  {
+                            totalPrice = (price * number)+230 ;
+                        } 
+                        
                         break;
                 }
                 break;
@@ -69,38 +64,32 @@ $(function () {
                     case size = "regular":
                         price = 400;
                         if (crust === "thin") {
-                            totalPrice = (price * number) ;
+                            totalPrice = (price * number) + 100 ;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) ;
-                        } else if (crust === "flatbread") {
-                            totalPrice = (price * number) ;
-                        } else {
-                            totalPrice = (price * number) ;
-                        }
+                            totalPrice = (price * number) +170;
+                        } else  {
+                            totalPrice = (price * number) + 230 ;
+                        } 
                         break;
                     case size = "medium":
                         price = 650;
                         if (crust === "thin") {
-                            totalPrice = (price * number) ;
+                            totalPrice = (price * number) +100 ;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) ;
-                        } else if (crust === "flatbread") {
-                            totalPrice = (price * number) ;
-                        } else {
-                            totalPrice = (price * number);
-                        }
+                            totalPrice = (price * number) +170 ;
+                        } else  {
+                            totalPrice = (price * number) + 230 ;
+                        } 
                         break;
                     case size = "large":
                         price = 1100;
                         if (crust === "thin") {
-                            totalPrice = (price * number) ;
+                            totalPrice = (price * number) + 100 ;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) ;
-                        } else if (crust === "flatbread") {
-                            totalPrice = (price * number) ;
-                        } else {
-                            totalPrice = (price * number) ;
-                        }
+                            totalPrice = (price * number) + 170 ;
+                        } else  {
+                            totalPrice = (price * number) + 230 ;
+                        } 
                         break;
                 }
                 break;
@@ -109,38 +98,32 @@ $(function () {
                     case size = "regular":
                         price = 400;
                         if (crust === "thin") {
-                            totalPrice = (price * number) ;
+                            totalPrice = (price * number) +100;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) ;
-                        } else if (crust === "flatbread") {
-                            totalPrice = (price * number);
-                        } else {
-                            totalPrice = (price * number) ;
+                            totalPrice = (price * number) +170;
+                        } else  {
+                            totalPrice = (price * number) + 230;
                         }
                         break;
                     case size = "medium":
                         price = 650;
                         if (crust === "thin") {
-                            totalPrice = (price * number) ;
+                            totalPrice = (price * number) + 100 ;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) ;
-                        } else if (crust === "flatbread") {
-                            totalPrice = (price * number) ;
-                        } else {
-                            totalPrice = (price * number) ;
-                        }
+                            totalPrice = (price * number) + 170;
+                        } else  {
+                            totalPrice = (price * number) + 230 ;
+                        } 
                         break;
                     case size = "large":
                         price = 1100;
                         if (crust === "thin") {
-                            totalPrice = (price * number) ;
+                            totalPrice = (price * number) + 100 ;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) ;
-                        } else if (crust === "flatbread") {
-                            totalPrice = (price * number) ;
-                        } else {
-                            totalPrice = (price * number);
-                        }
+                            totalPrice = (price * number) + 170 ;
+                        } else  {
+                            totalPrice = (price * number) +230 ;
+                        } 
                         break;
                 }
                 break;
@@ -149,38 +132,32 @@ $(function () {
                     case size = "regular":
                         price = 400;
                         if (crust === "thin") {
-                            totalPrice = (price * number) ;
+                            totalPrice = (price * number) + 100;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) ;
-                        } else if (crust === "flatbread") {
-                            totalPrice = (price * number) ;
-                        } else {
-                            totalPrice = (price * number) ;
-                        }
+                            totalPrice = (price * number) +170;
+                        } else  {
+                            totalPrice = (price * number) +230 ;
+                        } 
                         break;
                     case size = "medium":
                         price = 650;
                         if (crust === "thin") {
-                            totalPrice = (price * number) ;
+                            totalPrice = (price * number) +100;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) ;
-                        } else if (crust === "flatbread") {
-                            totalPrice = (price * number) ;
-                        } else {
-                            totalPrice = (price * number) ;
-                        }
+                            totalPrice = (price * number) + 170 ;
+                        } else  {
+                            totalPrice = (price * number) + 230;
+                        } 
                         break;
                     case size = "large":
                         price = 1100;
                         if (crust === "thin") {
-                            totalPrice = (price * number) ;
+                            totalPrice = (price * number) +100;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) ;
-                        } else if (crust === "flatbread") {
-                            totalPrice = (price * number) ;
-                        } else {
-                            totalPrice = (price * number);
-                        }
+                            totalPrice = (price * number) + 170;
+                        } else  {
+                            totalPrice = (price * number) +230 ;
+                        } 
                         break;
                 }
                 break;
