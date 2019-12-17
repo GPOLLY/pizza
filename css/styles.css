@@ -148,6 +148,7 @@ li {
 }
 .form-control cdata{
     margin-top: 5px;
+    padding: 5px;
 }
 
 @media (min-width: 800px) and (max-width: 850px) {
