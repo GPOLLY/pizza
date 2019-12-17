@@ -212,14 +212,12 @@ $(function () {
         $('.deliver').show(1000);
         $('.delivernot').show(1000);
 
-        //display on the html page
-        $('#list').text(" ");  
-        var output = totalPrice;  
-        document.getElementById("output").innerHTML=output;
-
+        //display on the html page 
+  
+        $("#list").text(totalPrice)  
         
     });
-    // alert(list);
+    
 
     //Deliver part
     $(".deliver").click(function () {
@@ -234,13 +232,13 @@ $(function () {
 
     //Pick Up
     $(".delivernot").click(function () {
-        $('#list').text(" ");     
-        $("#list").append("<br>" + "Flavour :   " + newOrder.f + "<br>" + "Size :   "
-            + newOrder.s + "<br>" + "Crust :     "
-            + newOrder.c + "<br>" + "Toppings :     "
-            + newOrder.t + "<br>" + " Number of pizzas :    "
-            + newOrder.n + "<br>" + "Total Price :  "
-            + newOrder.total + "<br><br>").css('font-family', 'system-ui').css('font-size', '24px');
+        // $('#list').text(" ");     
+        // $("#list").append("<br>" + "Flavour :   " + newOrder.f + "<br>" + "Size :   "
+        //     + newOrder.s + "<br>" + "Crust :     "
+        //     + newOrder.c + "<br>" + "Toppings :     "
+        //     + newOrder.t + "<br>" + " Number of pizzas :    "
+        //     + newOrder.n + "<br>" + "Total Price :  "
+        //     + newOrder.total + "<br><br>").css('font-family', 'system-ui').css('font-size', '24px');
    
 
     });
